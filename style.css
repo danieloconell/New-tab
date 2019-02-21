@@ -1,0 +1,57 @@
+body {
+  background-color: #303030;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-family: 'Roboto';
+  color: #f5f5f5;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#event-date {
+  font-size: 1vw;
+}
+
+#date {
+  font-size: 3vw;
+}
+
+#time {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 26vw;
+  margin: 0;
+}
+
+.link {
+  border-radius: 0.2em;
+  box-shadow: 0 0.5em 0.5em 0 rgba(0, 0, 0, 0.24);
+}
+
+.shadow {
+  text-shadow: 0.075em 0.075em 0.25em rgba(0, 0, 0, 0.24);
+}
+
+.arstechnica {
+  background-color: #fe4f00;
+  background-image: url('img/arstechnica.svg');
+}
+
+.github {
+  background-color: #000;
+  background-image: url('img/github.png');
+}
+
+.icon {
+  font-size: 4.2vw;
+  color: grey;
+  margin: 1em;
+}

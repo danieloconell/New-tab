@@ -1,0 +1,12 @@
+{
+ "name": "Simple tab",
+ "description": "Only what you need",
+ "version": "1.0.0",
+ "manifest_version": 2,
+ "icons": {
+ "128": "img/icon.png"
+ },
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
