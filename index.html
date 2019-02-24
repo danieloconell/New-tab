@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html ang="en-AU">
-  <head>
-    <meta charset="utf-8">
-    <title>New Tab</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <script src="mousetrap.min.js"></script>
-    <script src="main.js"></script>
-    <base href="https://rosebank.instructure.com/courses/"
-  </head>
-  <body>
-    <div><p class="shadow" id="time"></p></div>
-    <div><p class="shadow" id="date"></p></div>
-    <div>
-      <a href="877"><i class="shadow icon fab fa-itunes-note"></i></a>
-      <a href="800"><i class="shadow icon fa fa-book"></i></a>
-      <a href="794"><i class="shadow icon fa fa-divide"></i></a>
-      <a href="843"><i class="shadow icon fa fa-map-marked-alt"></i></a>
-      <a href="807"><i class="shadow icon fa fa-flask"></i></a>
-      <a href="https://docs.google.com/document/u/1/"
-        ><i class="shadow icon fa fa-file-alt"></i
-      ></a>
-      <a href="https://soundcloud.com"
-        ><i class="shadow icon fab fa-soundcloud" style="color: #ce661a"></i
-      ></a>
-    </div>
-    <p id="event"></p>
-    <p id="event-date"></p>
-  </body>
+<html lang="en-AU">
+
+<head>
+  <meta charset="utf-8">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="main.js"></script>
+  <base href="https://rosebank.instructure.com/courses/">
+</head>
+
+<body>
+  <div>
+    <p class="shadow" id="time"></p>
+  </div>
+  <div>
+    <p class="shadow" id="date"></p>
+  </div>
+
+  <!-- <label for="assessments" style="color: white; float: left">Assessments:</label> -->
+  <div class="assessments">
+    <p>Assessments:</p>
+    <textarea rows="13" cols="30" id="assessments"></textarea>
+  </div>
+  <div class="homework">
+    <p>Homework:</p>
+    <textarea rows="13" cols="30" id="homework"></textarea>
+  </div>
+
+  <div>
+    <a href="995"><i class="icon fa fa-flask"></i></a>
+    <a href="996"><i class="icon fa fa-book"></i></a>
+    <a href="1055"><i class="icon fa fa-divide"></i></a>
+    <a href="980"><i class="icon fab fa-itunes-note"></i></a>
+    <a href="999"><i class="icon fa fa-running"></i></a>
+    <a href="982"><i class="icon fa fa-cross"></i></a>
+  </div>
+  <p id="event"></p>
+  <p id="event-date"></p>
+</body>
+
 </html>
