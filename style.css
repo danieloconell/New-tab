@@ -52,14 +52,13 @@ a {
   margin: 0.8em;
 }
 
-i:hover {
-  animation: colorchange 2s infinite alternate;
+i {
+  transition: color 0.5s ease;
 }
 
-@keyframes colorchange
-{
-  50%   {color: #FF5733;}
-  100%  {color: #1F85DE;}
+i:hover {
+  /* color: #dc2259; */
+  color: white;
 }
 
 .assessments {
