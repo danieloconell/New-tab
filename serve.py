@@ -14,7 +14,11 @@ def create_app():
         c = ics.Calendar(requests.get(cal_url).text)
         response = jsonify(
             {
-                index: [event.name, event.begin.humanize(), event.description]
+                index: {
+                    "name": event.name,
+                    "date": event.begin.humanize(),
+                    "description": event.description,
+                }
                 for index, event in enumerate(c.events)
             }
         )
