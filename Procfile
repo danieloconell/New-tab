@@ -1,1 +1,1 @@
-web: gunicorn serve:app -b :8080
+web: gunicorn "serve:create_app()"
