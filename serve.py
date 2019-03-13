@@ -21,6 +21,7 @@ def create_app():
                     "description": event.description,
                 }
                 for index, event in enumerate(c.events)
+                if "SRSC" not in event.name
             }
         )
         response.headers.add("Access-Control-Allow-Origin", "*")
