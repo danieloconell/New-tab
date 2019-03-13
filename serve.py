@@ -8,7 +8,6 @@ cal_url = "https://rosebank.instructure.com/feeds/calendars/user_VjkmU5ODxKymLFN
 
 def create_app():
     app = Flask(__name__)
-    app.config["CORS_HEADERS"] = "Content-Type"
 
     @app.route("/")
     def index():
